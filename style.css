@@ -1,0 +1,101 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+  
+  /* size */
+  --size-btn: 60px;
+  --base-space:8px;
+  --size-border:4px;
+  --font-size:16px;
+  --size-thumbnail:60px;
+
+  /* animation */
+  --animation-duration:300ms ;
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  height: 100vh;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  cursor: pointer;
+transition: transform var(--animation-duration) ease;
+
+}
+
+
+.btn{
+  /* 투명으로 */
+background-color: transparent;
+border: none;
+outline: none;
+cursor: pointer;
+display: flex;
+transition: transform var(--animation-duration) ease;
+margin-right: var(--base-space);
+}
+
+.btn:hover,
+.logo:hover{
+  transform: scale(1.1);
+}
+.buttons{
+  display: flex;
+  align-items: center;
+}
+
+.imgBtn{
+  width: var(--size-btn);
+  height: var(--size-btn);
+}
+
+.btnColors{
+  font-size: var(--font-size);
+  padding: calc(var(--base-space)*2);
+  border-radius: var(--size-border);
+}
+
+.blue{
+  background-color: var(--color-blue);
+}
+
+.yellow{
+  background-color: var(--color-yellow);
+}
+.pink{
+  background-color: var(--color-pink);
+}
+.items{
+  width: 60%;
+  height: 60%;
+  padding-left: 0;
+  overflow-y: scroll;
+}
+.item{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: var(--base-space);
+  margin-bottom: var(--base-space);
+}
+.item_thumbnail{
+  width: var(--size-thumbnail);
+  height: var(--size-thumbnail);
+}
+.item_description{
+  margin-left: var(--base-space);
+  font-size: var(--font-size);
+}
