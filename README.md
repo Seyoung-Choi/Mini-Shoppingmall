@@ -17,6 +17,6 @@ javaScript에 대해 계속 공부하던 중 귀여운 예제로 연습할 수 �
 
 Screenshot
 ----------
-![image](https://user-images.githubusercontent.com/66785214/99826887-48ba6600-2b9c-11eb-81ed-6f8ea52dfabe.png)
-![image](https://user-images.githubusercontent.com/66785214/99826936-5a037280-2b9c-11eb-8514-727ec5a946ff.png)
-![image](https://user-images.githubusercontent.com/66785214/99826975-67b8f800-2b9c-11eb-94da-59e0f6f3a909.png)
+![image](https://user-images.githubusercontent.com/66785214/99826887-48ba6600-2b9c-11eb-81ed-6f8ea52dfabe.png)![image](https://user-images.githubusercontent.com/66785214/99826936-5a037280-2b9c-11eb-8514-727ec5a946ff.png)![image](https://user-images.githubusercontent.com/66785214/99826975-67b8f800-2b9c-11eb-94da-59e0f6f3a909.png)
+
+
